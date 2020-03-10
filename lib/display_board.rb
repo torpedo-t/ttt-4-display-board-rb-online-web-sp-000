@@ -1,19 +1,10 @@
-# Define display_board that accepts a board and prints
-# out the current state.
-
-#'   |   |   '
-# '-----------'
-#'   |   |   '
-#'-----------'
-#'   |   |   '
-
-def display_board(board)
- while board =
-"'   |   |   '
+board = "'   |   |   '
  '-----------'
  '   |   |   '
  '-----------'
- '   |   |   '" do
+ '   |   |   '"
+def display_board(board)
+ while board[0] = ["   ","   ","   "]
  puts display_board(board)
  end
 end
